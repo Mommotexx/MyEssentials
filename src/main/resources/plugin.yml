@@ -9,3 +9,13 @@ commands:
   feed:
     description: Feeds the player
     usage: /<command>
+    permission: myessentials.feed
+permissions:
+  myessentials.feed:
+    description: Allows feed command
+    default: op
+  myessentials.*:
+    description: Wildcard permission
+    default: op
+    children:
+      myessentials.feed: true
