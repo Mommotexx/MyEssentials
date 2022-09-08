@@ -1,0 +1,7 @@
+name: MyEssentials
+version: '${project.version}'
+main: com.marcusjohansen.myessentials.MyEssentials
+api-version: 1.19
+authors: [ Mommotexx ]
+description: My essential plugin for Minecraft 1.19.2
+website: https://github.com/mommotexx
