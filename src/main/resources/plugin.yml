@@ -5,3 +5,7 @@ api-version: 1.19
 authors: [ Mommotexx ]
 description: My essential plugin for Minecraft 1.19.2
 website: https://github.com/mommotexx
+commands:
+  feed:
+    description: Feeds the player
+    usage: /<command>
